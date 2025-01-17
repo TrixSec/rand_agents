@@ -1,0 +1,15 @@
+[package]
+name = "rand_agents"
+version = "1.0.0"
+edition = "2021"
+license = "MIT"
+authors = ["Trix Cyrus"]
+description = "A Rust library for generating random user agent strings."
+repository = "https://github.com/TrixSec/rand_agents"
+
+[dependencies]
+rand = "0.8"
+
+[[bin]]
+name = "rand_agents"
+path = "src/main.rs"
