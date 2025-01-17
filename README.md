@@ -20,8 +20,13 @@ To use `rand_agents` in your Rust project, follow these steps:
 In your Rust project's `Cargo.toml` file, add the following line under `[dependencies]`:
 
 ```toml
+[package]
+name = "my_project"
+version = "0.1.0"
+edition = "2021"
+
 [dependencies]
-rand_agents = "1.0.0" }
+rand_agents = "1.0.0"
 ```
 
 ### 2. Using `rand_agents` in Your Code
@@ -44,6 +49,7 @@ This will generate and print a random user agent string to the console.
 To run your project, simply use:
 
 ```bash
+cargo build
 cargo run
 ```
 
